@@ -1,0 +1,1 @@
+[{"id":"dc89d9aa.630078","type":"function","z":"8374902b.9327c","name":"set geometry_msg/Twist","func":"var twist = {\nlinear : {\n    x : 0.1,\n    y : 0.0,\n    z : 0.0\n},\nangular : {\n    x : 0.0,\n    y : 0.0,\n    z : 0.0\n}\n};\nmsg.payload = twist;\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":230,"y":400,"wires":[[]]}]
